@@ -11,6 +11,7 @@ CLIENT_ID = "XDW99APBZ3-100"
 SECRET_KEY = "Q0IKQA42SO"      
 REDIRECT_URI = "https://trade.fyers.in/api-login/redirect-uri/index.html"
 
+TOKEN = open("fyers_token.txt").read().strip()
 
 fyers = fyersModel.FyersModel(client_id=CLIENT_ID, token=TOKEN)
 
