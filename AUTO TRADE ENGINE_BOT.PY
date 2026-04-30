@@ -7,8 +7,8 @@ from fyers_apiv3 import fyersModel
 # ============================================
 # 🔐 FYERS CREDENTIALS & CONFIG
 # ============================================
-CLIENT_ID = "XDW99APBZ3-100"    
-SECRET_KEY = "Q0IKQA42SO"      
+
+
 REDIRECT_URI = "https://trade.fyers.in/api-login/redirect-uri/index.html"
 
 TOKEN = open("fyers_token.txt").read().strip()
